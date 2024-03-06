@@ -14,10 +14,13 @@ int main()
     cin >> meses;
     cout << "\nDias: ";
     cin >> dias;
+    if (anos > 0 && meses > 0 && dias > 0 ) {
+        
+        totalDias = dias+meses*30+anos*365;
     
-    totalDias = dias+meses*30+anos*365;
-    
-    cout << "Sua idade em dias é: " << totalDias;
-    
+        cout << "\nSua idade em dias é: " << totalDias;
+    } else {
+        cout << "\nErro: Dados inseridos são negativos, ou inválidos .";
+            }
     return 0;
 }
