@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace std;
-
 /*
 Algoritmos e Programacão
 Lista 01 - Questão 03
@@ -8,6 +5,9 @@ Lista 01 - Questão 03
 acordo com a quantidade de parcelas desejada pelo usuário. A loja está vendendo seus produtos 
 a vista ou parcelado em até 10 vezes sem juros."
 */
+
+#include <iostream>
+using namespace std;
 
 int main() {
     int qntdParcerlas;
