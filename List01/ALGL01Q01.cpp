@@ -1,12 +1,12 @@
-#include<iostream>
-using namespace std;
-
 /*
 Algoritmos e Programacão
 Lista 01 - Questão 01
 "Leia a idade de uma pessoa expressa em anos, meses e dias e mostre-a expressa apenas em dias. 
 Obs: Considere cada mês com 30 dias."
 */
+
+#include<iostream>
+using namespace std;
 
 int main() {
 
