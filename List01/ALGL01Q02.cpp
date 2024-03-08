@@ -1,6 +1,3 @@
-#include<iostream>
-using namespace std;
-
 /*
 Algoritmos e Programacão
 Lista 01 - Questão 02.
@@ -8,6 +5,9 @@ Lista 01 - Questão 02.
 informações número de anos que ele fuma, quantidade] de cigarros fumados por dia e preço de 
 uma carteira."
 */
+
+#include<iostream>
+using namespace std;
 
 int main() {
     
