@@ -11,15 +11,18 @@ using namespace std;
 int main() {
     
     float reais, dolar;
-    const float cotacaoDolar = 4.95; // Cotação do dólar em 07/03/2023 às 09:04
+    float cotacaoDolar;
     
     cout << "Calculadora de conversão de R$ para US$." << endl ;
-    cout << "Digite o valor de R$ que deseja converter: R$";
+    cout << "Digite o valor de R$ que deseja converter para US$: R$";
     cin >> reais;
+    cout << "Digite o valor da Cotação do Dólar em Reais: R$";
+    cin >> cotacaoDolar;
     
     dolar = reais*cotacaoDolar;
     
-    cout << endl << "Em 07/03/2023, R$" << reais << " equivalia a US$" << dolar;
+    
+    cout << endl << "R$" << reais << " equivale a US$" << dolar;
     
     
     return 0;
