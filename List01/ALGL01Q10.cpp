@@ -14,7 +14,7 @@ int main() {
     
     int A,B;
     string c,d;
-    bool C,D, respE, respOu;
+    bool C,D;
     
     cout << "Operações aritméticas e lógicas entre duas variáveis." << endl;
     
@@ -49,11 +49,9 @@ int main() {
         D = true;
     }
     
-    if ((C == true || C == false)&&(D == true || D == false)){
-        respOu = C||D;
-        respE = C&&D;
-        cout << "C Negado = " << !C << "\nD Negado = " << !D << "\nC e D = " << respE 
-            << "\nC ou D = " << respOu;
+    if ((C || !C )&&(D || !D)){
+        cout << "C Negado = " << !C << "\nD Negado = " << !D << "\nC e D = " << C&&D 
+            << "\nC ou D = " << C||D;
     } else {
         cout << "Erro valores inseridos não são lógicos.";
     }    
